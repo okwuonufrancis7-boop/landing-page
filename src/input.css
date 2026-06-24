@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.FAQ-div div h1{
+    @apply font-bold text-amber-500
+}
+.FAQ-div div p{
+    @apply ml-5 mb-4
+}

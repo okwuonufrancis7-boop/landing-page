@@ -16,7 +16,7 @@
             <a href="" class="hover:text-white">Home</a>
             <a href="" class="hover:text-white">Stats</a>
             <a href="" class="hover:text-white">Gallery</a>
-            <a href="" class="hover:text-white">Contacts</a>
+            <a href="#contacts" class="hover:text-white">Contacts</a>
         </nav>
     </header>
 
@@ -26,7 +26,7 @@
 
         <!-- HERO SECTION -->
 
-        <section class=" flex items-center justify-center h-screen gap-8">
+        <section class=" flex items-center justify-center h-screen gap-8 md:pt-7">
             <img src="./images/messibaloon.jpg" alt="" class="hidden md:inline md:w-60 md:h-65 shadow-black shadow-lg transition-transform duration-400 hover:scale-110">
             <img src="./images/messi.jpg" alt="" class="md:h-110 md:w-100  shadow-black shadow-lg md:transition-transform md:duration-400 md:hover:scale-110 mb-7 md:mb-0">
             <img src="./images/a8147fc930d24b09591a4d5513edc0cf.jpg" alt="" class="hidden md:inline md:w-60 md:h-65  shadow-black shadow-lg transition-transform duration-400 hover:scale-110">
@@ -34,27 +34,29 @@
 
         <!-- ADOUT SECTION -->
 
-        <section class="md:flex items-center justify-center md:m-auto md:w-[80%] gap-14 md:mt-25 mx-5">
-            <div class="md:w-[50%] text-white">
-                <p class="font-bold text-4xl text-black flex justify-center mb-7">About</p>
-                Lionel Andrés Messi, born June 24, 1987 in Rosario,
-                Argentina, is widely considered one of the greatest footballers
-                of all time.He spent most of his career at FC Barcelona, 
-                where he won 4 Champions League titles and 10 La Liga titles
-                while breaking tons of scoring records. In 2023 he joined Inter
-                Miami in MLS. <br> <br> Known as “La Pulga” for his low center of gravity
-                and insane dribbling, Messi has won a record 8 Ballon d’Or awards.
-                He finally lifted the World Cup with Argentina in 2022 after
-                leading them to victory in Qatar.Off the pitch he’s known for being quiet,
-                humble, and family-focused. The man lets his feet do the talking.
-                <div class="flex justify-center mt-9">
-                    <button class="bg-black py-2 px-4 rounded-full font-bold text-2xl text-amber-500 hover:text-white  transition-transform cursor-pointer">
-                        Get in touch
-                    </button>
-                </div>
+        <section>
+             <p class="font-bold text-4xl text-black flex justify-center mb-7 md:mt-20">About</p>
+            <div class="md:flex items-center justify-center md:m-auto md:w-[80%] gap-14 md:mt-7 mx-5">
+                <div class="md:w-[50%] text-white"> 
+                    Lionel Andrés Messi, born June 24, 1987 in Rosario,
+                    Argentina, is widely considered one of the greatest footballers
+                    of all time.He spent most of his career at FC Barcelona, 
+                    where he won 4 Champions League titles and 10 La Liga titles
+                    while breaking tons of scoring records. In 2023 he joined Inter
+                    Miami in MLS. <br> <br> Known as “La Pulga” for his low center of gravity
+                    and insane dribbling, Messi has won a record 8 Ballon d’Or awards.
+                    He finally lifted the World Cup with Argentina in 2022 after
+                    leading them to victory in Qatar.Off the pitch he’s known for being quiet,
+                    humble, and family-focused. The man lets his feet do the talking.
             </div>
             <div class="md:w-[50%] mt-5 md:block">
                 <img src="./images/messitrophies.jpg" alt="">
+            </div>
+        </div>
+            <div class="flex justify-center mt-9">
+                        <button class="bg-black py-2 px-4 rounded-full font-bold text-2xl text-amber-500 hover:text-white  transition-transform cursor-pointer">
+                            Get in touch
+                        </button>
             </div>
         </section>
         
@@ -89,7 +91,7 @@
                 </div>
         </section>
     </main>
-    <footer class="bg-amber-500">
+    <footer class="bg-amber-500" id="contacts">
         <section class="flex justify-around border-b py-10">
             <div>
                 <h1 class="font-semibold mb-3">QUICK LINKS</h1>
@@ -148,6 +150,6 @@
             <a href="" class="border-e pr-10 md:pr-20">Terms of Use</a>
             <a href="">Cookie Policy</a>
         </section>
-    </footer>
+    </footer>git
 </body>
 </html>
